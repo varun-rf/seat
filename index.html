@@ -30,7 +30,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 2;
-            width: auto;
+            width: 90%;
             max-width: 500px;
             text-align: center;
         }
@@ -51,6 +51,13 @@
             transition: transform 0.3s ease;
             display: inline-block;
             text-shadow: 0 0 10px #39ff14;
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 4vw;
+                padding: 5vw 7vw;
+            }
         }
 
         @keyframes scaleEffect {
